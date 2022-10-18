@@ -129,15 +129,15 @@ body {
 
  #checkout-buttons__proceed:hover {
   background-color: var(--active-purple);
-  font-weight: 900;
-  padding: 1.5rem;
-  font-size: 1.5rem;
+  
+ 
+ 
 
  }
 
  #checkout-buttons__cancel:hover {
   color: var(--Dark-blue);
-  font-size: 1.5rem;
+  
   }
 
  @media (max-width: 410px) {
