@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="Order Summary Component" name="description" />
+    <meta
+      content="Order Component, FrontEnd Mentor, jonef, HTML, CSS"
+      name="keywords"
+    />
+    <meta name="author" content="Jorge Freitas" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Order summary card</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="main-image">
+        <img src="images\illustration-hero.svg" alt="Person listening music" />
+      </div>
+      <div class="service_details">
+        <h2 class="service_details__title">Order Summary</h2>
+        <p class="service_details__description">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <div class="checkout-preview">
+          <div class="checkout-preview__price">
+            <img src="images\icon-music.svg" alt="music icon" />
+            <span class="checkout-preview__plan">
+              <h5>Annual Plan</h5>
+              <p>$59.99/year</p>
+            </span>
+          </div>
+          <div class="checkout-preview__change">
+            <a href="#">Change</a>
+          </div>
+        </div>
+        <div class="checkout-buttons">
+          <button id="checkout-buttons__proceed">Proceed to Payment</button>
+          <a id="checkout-buttons__cancel">Cancel Order</a>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jonef</a>.
+    </div>
+  </body>
+</html>
